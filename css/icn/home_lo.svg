@@ -1,0 +1,23 @@
+<!-- icn HOME -- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="icn-home" class="svg_icn" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="42" width="42" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 11.1125 11.1125">
+ <title>icn-home</title>
+  <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>icn-home<dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 -285.89)">
+  <g class="svg_dark">
+   <rect height="7.4657" width="7.0356" y="289.57" x="2.0384"/>
+   <path d="m5.5563 285.94 1.9368 3.3546 1.9368 3.3546h-3.8736-3.8736l1.9368-3.3546z" transform="matrix(1.4263 0 0 .78719 -2.3688 60.85)"/>
+   <rect height="2.538" width="1.2661" y="287.03" x="7.8079"/>
+  </g>
+  <g id="H" aria-label="H" class="svg_light">
+   <path d="m4.0734 291.51h0.85333v1.2612h1.2589v-1.2612h0.8535v3.3092h-0.8534v-1.403h-1.2589v1.403h-0.8534z"/>
+  </g>
+ </g>
+</svg>

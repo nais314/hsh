@@ -1,0 +1,36 @@
+/**
+    planned Hardware:
+        esp32 lolin32 v1
+        2.9inch eink modul (+ i2c oled???)
+        1000 mah lipo
+        rgb module
+        on/off switches for power, rgb
+        vibration
+        LED
+        bmp280
+        giro acc module
+        microphone
+        buzzer
+        wifi, BLE built in
+        rotary or 5pin joystick?
+        tty connector for commanding oth device?!
+        
+        ? city gas sensor?
+
+    planned Functions:
+        android notifications: vibrate, LED, buzzer
+        
+        sccd aggregate?:
+        kotkar aggregate?:
+
+        devicemanager actions: http, socket
+            remote keyboard to enter commands?
+            remote cam as VNC??? h6ck
+
+        pager: from 314.hu send msgs./ notes
+
+        on-screen keyboard for "SMS"
+
+--------------------------------------------------------
+*/
+  

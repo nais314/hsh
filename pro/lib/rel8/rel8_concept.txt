@@ -1,0 +1,134 @@
+/**
+    component for tree representation of different objects.
+    TreeItemObjects - rel8 for short. or Hierarchical Distinct Object Relator rel8 ? relator rel8
+    rel8 lib handles the tree,
+    referenced objects handle visual & action
+    
+    support for Actions & Properties (properties may connect to actions?)
+    support for signals, cumulative signals - bubbling up. (red dot, yellow dot etc)
+    support "connectors", "connect via gpio17" (...)
+
+        devmanager registers device (driver), rel8 register properties and actions
+        (rel8 loads custom ti, onclick: 
+            and or: rel8 loads childs - properties - sub actions -, actions
+            and or: rel8 loads custom view not childs !!! OVERRIDE DATASET-ACTION !!!)
+
+    <div class="ti_rel8 css_class" data-action="window[]" role="treeitem"></div>
+    <div class="rel8_childs" role></div>
+
+    tree behavior:
+        click: ti onclick js: 
+                if dataset-action call (window[JS dataset-action])
+                //Action class generates tio_actions with JS XHTTP to execute action
+                else default loads rel8 childs into treeitemchilds div (actions, displays, events etc)
+
+        longclick: jump to object crud page // ??? load into overlay?
+        view scrolls to selected.top
+
+    mosaic behaivor:
+        click: loads new div with back btn, childs.
+               loads actions, displays, etc before childs, as/like mosaictiles
+        longclick: jump to / load crud page
+*/
+
+
+lib\rel8: (rel8 subsystem / component /)
+    rel8.php ?
+        setup: create sql tables
+
+    rel8Controller.php "\rel8\rel8/action"
+        rel8_tree // call drivers treeitem loaders
+        ti onclick js: if dataset-action call (window[JS dataset-action]) else default
+        
+        
+    rel8Modell.php
+        notif - red/yellow/blue/none -> triggered by childs onchange event, or by periodic action, can be dismissed
+        //notification_text - varchar 32 // for tooltip or rotator
+        pos ition, order !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        model // bmp280 -> bmp280Controller... -> get_ti(id)
+        path  // devicemanager/drivers/<model>
+        parent_id
+        has_child
+        /**
+            + treeitem fields - css, style, etc
+            should be used by Former to create selector
+        */
+
+
+
+
+
+
+
+pro\devicemanager\drivers
+    \bmp280
+        view\                               _treeitem.php
+        src\                                source files nim
+        bin\                                executables nim, py (?)
+            bmp280.so                       main file to import into main app
+            bmp280_cli                      command line interface to .so
+        build\                              temp files
+
+        bmp280Controller.php
+            get_ti(id): generate html repr of object for view
+            setup: create sql tables if not exists
+            create
+            update(?)
+            read
+            delete
+            get_actions []: return array of built-in get_actions
+                action_on(): turn action_on
+                action_sleep, action_off, action_reset
+                ? "action browseable" or view handles - option
+                ? or 
+            get_events []: return array of built-in events (nim) // for action editor
+
+            get_properties [,]: Temp, Direction etc.
+                getter methods - return human readable data
+                - views for properties? compass
+                STATUS - spec property
+            
+            ajaxLoad_treeitems ((_gen_treeitems))
+
+        bmp280Model.php
+            name
+            category - lighting, ac, PIR, ""
+            id
+            state // on, off
+
+
+
+pro\devicemanager
+    devicemanagerController
+        rel8_register: register a deviceManager node, root for devices, 
+            ? register actions and properties ?
+            ? "action browseable" or view handles - option
+        add_device: 
+            select driver (upper frame) - php scan for drivers
+            display as Index Page (A,B,C,...) with Category headers h2 br
+
+            drivers create form (lower frame), 
+            parent=devmanager_rel8.id
+            $path auto insert
+            the actions/props to register - multi select / checkboxes
+
+    devicemanagerModel
+
+    SQL index: device - driver // for beforeRemove driver, check if used ?
+
+    bin\
+    src\
+    build\
+    lib\ ? 3rd party, wiringPi
+
+    scrypts\? py or php script cli, loop,
+
+
+
+pro\actionmanager
+    /** "rel8 linker"
+        action rel8 with dataset-action window[actionname] 
+        create actions from action builder or simple actions in driver
+        ?r=controller/action&params
+    */
+    

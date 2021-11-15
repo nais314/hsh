@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************************/
+			.cont_table {
+				display: table !important;
+				width: 100%;
+				height: 100%;
+				margin: auto auto;
+				overflow: hidden;
+				border-collapse: collapse;
+				border: none;
+				cursor:pointer;
+			}
+			.cont_row {
+				display: table-row !important;
+				border-collapse: collapse;
+				border: none;
+				width: 100%;
+				height: 100%;
+			}
+			.cont_cell {
+				display: table-cell !important;
+				vertical-align: middle ;
+				overflow: hidden;
+				width: 100%;
+				height: 100%;
+				border-collapse: collapse;
+				border: none;
+				/*padding: 4px;*/
+				margin: auto auto;
+				text-align:center;
+				/*position:relative;*/
+			}
+			.cont_cell_black {
+				display: table-cell ;
+				vertical-align: middle  ;
+				overflow: hidden;
+				width: 100%;
+				height: 100%;
+				/* border-collapse: collapse; 
+				border: none;*/
+				border: 1px solid #666;
+				padding: 4px;
+				background-color: #000;
+				color: #CCC;
+			}
+				.cont_cell_black:hover { 
+					background-color:#FFF !important;
+					color:#000 !important;
+				}
+				.cont_cell_black h2, .cont_cell_black h3 {
+					font-family: 'Courgette', cursive;
+					font-weight: 500;
+					text-align: center;
+					margin:auto auto;
+					font-size:inherit;
+				}
+				
+			
+			
+			/*-------------------------------------*/
+			
+			
+    
+            .mosaictile {
+                width: 20%;
+                height: 120px;
+                display: inline-block;
+                overflow: hidden;
+                background-color: #0C0;
+                text-align: center;
+                border: none 3px transparent;
+                margin: 5px;
+                padding:0px;
+                position: relative;
+                font-size: 1.2em;
+                cursor:pointer;
+                z-index:30;
+            }
+            .mosaictile:hover {
+                border: solid 3px #0FF;
+                margin: 2px;
+            }
+            .uploaded {
+                border: none 3px transparent;
+                margin: 2px;
+            }
+            .toupload {
+                border: solid 3px #0F0;
+                margin: 2px;
+            }					
+            .mosaic_car {
+                width:100%;
+                height:200%;
+                position:absolute;
+                top:0px;
+                left:0px;
+                background-color:#000;
+                color:#0FF;
+                margin: 0px 0px;
+                padding:0px 0px;
+                overflow:hidden;
+                word-break:break-all;
+                word-wrap:break-word;	
+            }
+            
+            .mosaictile .thumb {
+                width: 100%;
+                height: 50%;
+                /*width:100%;
+                height:150px;*/
+                display: inline-block;
+                overflow: hidden;
+                background-color: #333;
+                text-align: center;
+                border: none 0px transparent;
+                margin: 0px 0px;
+                padding: 0px 0px;
+                position: absolute;
+                font-size: 1.2em;
+                cursor:pointer;
+                top:0px;
+                left:0px;
+            }
+                .mosaictile .thumb:hover {
+                    border: none 0px transparent;
+                    margin: 0px;
+                }
+                
+                .mosaictile .cont_table {
+                    display: table;
+                    width: 100%;
+                    height: 50%;
+                    margin: auto auto;
+                    overflow: hidden;
+                    border-collapse: collapse;
+                    border: none;
+                    cursor:pointer;
+                    position:absolute;
+                    top:50%;
+                    left:0px;
+                }
+                
+            .mosaic_progress {
+                width: 0%;
+                height:100%;
+                background-color:#0F0;
+                opacity:0.5;
+                z-index:31;
+                position:absolute;
+                top:0px;
+                left:0px;
+                pointer-events:none;
+                overflow:hidden;	
+            }

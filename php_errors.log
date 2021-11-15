@@ -1,0 +1,20 @@
+[25-Nov-2017 19:16:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hsh.undefined' doesn't exist in /srv/http/hsh/pro/lib/LessQL/Database.php:531
+Stack trace:
+#0 /srv/http/hsh/pro/lib/LessQL/Database.php(531): PDOStatement->execute(Array)
+#1 /srv/http/hsh/pro/lib/LessQL/Result.php(162): LessQL\Database->select('undefined', Array)
+#2 /srv/http/hsh/pro/lib/LessQL/Result.php(380): LessQL\Result->execute()
+#3 /srv/http/hsh/pro/lib/bony/Tree.php(196): LessQL\Result->fetchAll()
+#4 /srv/http/hsh/pro/lib/bony/TreeController.php(20): bony\Tree::ti_load_childs('undefined', '1', 1, false)
+#5 /srv/http/hsh/index.php(63): bony\TreeController::ajaxLoad_TreeInput_TreeitemChilds()
+#6 {main}
+  thrown in /srv/http/hsh/pro/lib/LessQL/Database.php on line 531
+[25-Nov-2017 19:17:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hsh.undefined' doesn't exist in /srv/http/hsh/pro/lib/LessQL/Database.php:531
+Stack trace:
+#0 /srv/http/hsh/pro/lib/LessQL/Database.php(531): PDOStatement->execute(Array)
+#1 /srv/http/hsh/pro/lib/LessQL/Result.php(162): LessQL\Database->select('undefined', Array)
+#2 /srv/http/hsh/pro/lib/LessQL/Result.php(380): LessQL\Result->execute()
+#3 /srv/http/hsh/pro/lib/bony/Tree.php(196): LessQL\Result->fetchAll()
+#4 /srv/http/hsh/pro/lib/bony/TreeController.php(20): bony\Tree::ti_load_childs('undefined', '1', 1, false)
+#5 /srv/http/hsh/index.php(63): bony\TreeController::ajaxLoad_TreeInput_TreeitemChilds()
+#6 {main}
+  thrown in /srv/http/hsh/pro/lib/LessQL/Database.php on line 531

@@ -1,0 +1,125 @@
+/* html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+} */
+
+#imgcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #191919;
+}
+#imgcontainer img {
+  flex: 0 0 auto;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0px 0px 50px black;
+  transition: opacity 0.3s ease-out;
+  z-index: 100;
+  position: relative;
+  left: 0px;
+}
+#imgcontainer input[type='button'] {
+  background-color: black;
+  color: #999;
+  border-style: none;
+  font-size: 2em;
+  position: absolute;
+  /* border: 1px solid #44c; */
+  box-shadow: 0px 0px 10px black;
+  user-select: none;
+  outline: 0;
+  z-index: 110;
+}
+#imgcontainer input[type='button']:hover {
+  box-shadow: 0px 0px 10px white;
+}
+input::-moz-focus-inner {border:0;}
+input:focus {
+  outline: none;
+}
+
+#imgDescription {
+  padding: 0.5em;
+  background-color: #222;
+  color: #d5cbad;
+}
+
+.thumb {
+  flex: 0 1 auto;
+  margin: .5em;
+  border: 3px solid transparent;
+}
+  .thumb:hover {
+    border: 3px solid aqua;
+    filter:brightness(200%);
+  }
+
+/*-----------------------*/
+
+
+
+.gallery_wrapper {
+	text-align: center;
+	width: 100%;
+	margin: auto auto;
+	display: block;
+	background-color: transparent;
+	position: relative;
+	clear: both;
+}
+.gallery_folder_wrapper {
+  justify-content: center;
+  align-content: center;
+	text-align: center;
+	/*margin: 4px;*/ margin: auto auto;
+	background-color: transparent;
+	width: auto;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.gallery_folder_title  {
+  font-weight: 500;
+	text-align: center;
+	display: block;
+
+	font-size: 1.4em;
+	width:98%;
+	display:inline-block;
+  padding-bottom:13px;
+	cursor:pointer;
+}
+	.gallery_folder_title h1 {
+		font-family: 'Courgette', cursive;
+		font-size:inherit;
+		font-weight: 500;
+		text-align: center;
+    margin:auto auto;
+    font-size: 1.2em;
+  }
+  .gallery_folder_title h2 {
+		font-size:inherit;
+		font-weight: 500;
+		text-align: center;
+    margin: auto auto;
+    font-size: .7em;
+	}
+/* .gallery_folder_title:hover {
+	border: 2px solid #0FF;
+	color: #0FF;
+	cursor:pointer;
+} */
+
+@media all and (max-width: 480px) {
+  .thumb {
+    margin: 0px;
+  }
+}

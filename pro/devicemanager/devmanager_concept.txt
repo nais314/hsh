@@ -1,0 +1,10 @@
+workplan
+
+create a driver... LED!
+    actions : on off
+    property: state (on/off gpio state)
+    connect: gpio pin d5
+
+    bin: py print ok
+
+    

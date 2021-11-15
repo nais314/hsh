@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'),
+		url(fonts/Ubuntu-Light.woff) format('woff'),  
+		url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/WtcvfJHWXKxx4x0kuS1koT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+	url(fonts/Ubuntu-Bold.woff) format('woff'), 
+  url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/nsLtvfQoT-rVwGTHHnkeJj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

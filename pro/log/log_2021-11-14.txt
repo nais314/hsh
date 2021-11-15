@@ -1,0 +1,252 @@
+[2021-11-14 20:04:55 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:04:55 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:04:55 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:04:55 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:04:55 possible error: ] siteController::login maybe not secure!
+[2021-11-14 20:06:10 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:06:10 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:06:10 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:06:10 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:06:10 possible error: ] siteController::login maybe not secure!
+[2021-11-14 20:06:35 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:06:35 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:06:35 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:06:35 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:06:35 possible error: ] siteController::login maybe not secure!
+[2021-11-14 20:07:49 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 20:07:49 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 20:07:49 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:49 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:07:49 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:07:49 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 20:07:49 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 20:07:49 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:49 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:07:49 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:07:49 possible error: ] siteController::login maybe not secure!
+[2021-11-14 20:07:53 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:53 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:07:53 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:07:53 possible error: ] siteController::login maybe not secure!
+[2021-11-14 20:07:53 debug     ] bony\resql::find_stmt SELECT * FROM user WHERE name=? AND rootdiv = 1
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch  array (
+  0 => 'admin',
+)
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:53 DEBUG     ] authenticate: admin
+[2021-11-14 20:07:53 debug     ] bony\resql::find_stmt SELECT * FROM user WHERE name = ? AND division_id = ? AND rootdiv = 1
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch  array (
+  0 => 'admin',
+  1 => 1,
+)
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:53 debug     ] siteController::login [user]: array (
+  'id' => '1',
+  'name' => 'admin',
+  'password' => '$2y$10$3ru.rHpLGBjf53PujMWNk.VtZ.CgmrmWSx5XU94P0P5.FFmp.y7Ru',
+  'rootdiv' => '1',
+  'division_id' => '1',
+)
+[2021-11-14 20:07:53 debug     ] app::redirect: ?r=page/show&id=switch
+[2021-11-14 20:07:53 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 20:07:53 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:07:53 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:07:53 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:10:06 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 20:10:06 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 20:10:06 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 20:10:06 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 20:10:06 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 20:10:06 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:06:46 debug     ] bony\resql::find_stmt SELECT * FROM division WHERE hostname LIKE ?
+[2021-11-14 21:06:46 debug     ] bony\resql::fetch  array (
+  0 => '%www2.314.hu%',
+)
+[2021-11-14 21:06:46 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 21:06:46 debug     ] DEBUGarray (
+  'id' => '1',
+  'parent' => NULL,
+  'name' => '314',
+  'hostname' => 'www2.314.hu localhost',
+  'folder' => 'home',
+  'default_action' => '',
+  'scenario' => 'normal',
+  'rootdiv' => '1',
+)
+[2021-11-14 21:06:46 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:06:46 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:06:46 possible error: ] siteController::login maybe not secure!
+[2021-11-14 21:06:48 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:06:48 possible error: ] siteController::login maybe not secure!
+[2021-11-14 21:06:48 debug     ] bony\resql::find_stmt SELECT * FROM user WHERE name=? AND rootdiv = 1
+[2021-11-14 21:06:48 debug     ] bony\resql::fetch  array (
+  0 => 'admin',
+)
+[2021-11-14 21:06:48 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 21:06:48 DEBUG     ] authenticate: admin
+[2021-11-14 21:06:48 debug     ] bony\resql::find_stmt SELECT * FROM user WHERE name = ? AND division_id = ? AND rootdiv = 1
+[2021-11-14 21:06:48 debug     ] bony\resql::fetch  array (
+  0 => 'admin',
+  1 => 1,
+)
+[2021-11-14 21:06:48 debug     ] bony\resql::fetch - not empty var_arr 
+[2021-11-14 21:06:48 debug     ] siteController::login [user]: array (
+  'id' => '1',
+  'name' => 'admin',
+  'password' => '$2y$10$3ru.rHpLGBjf53PujMWNk.VtZ.CgmrmWSx5XU94P0P5.FFmp.y7Ru',
+  'rootdiv' => '1',
+  'division_id' => '1',
+)
+[2021-11-14 21:06:48 debug     ] app::redirect: ?r=page/show&id=switch
+[2021-11-14 21:06:48 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:06:48 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:13:49 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:13:49 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:13:51 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:13:51 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:14:00 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:14:00 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:14:03 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:14:03 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:21:07 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:21:07 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:21:08 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:21:08 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:22:14 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:22:14 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:22:16 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:22:16 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:22:47 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:22:47 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:22:49 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:22:49 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:24:12 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:24:12 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:24:14 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:24:14 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:24:36 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:24:36 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:24:37 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:24:37 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:24:59 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:24:59 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:25:00 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:25:00 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:26:00 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:26:00 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:26:01 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:26:02 debug     ] 'app::include_JSFILES - Array'
+[2021-11-14 21:26:04 debug     ] WHERE_ROOTDIV  AND rootdiv = 1
+[2021-11-14 21:26:04 debug     ] 'app::include_JSFILES - Array'

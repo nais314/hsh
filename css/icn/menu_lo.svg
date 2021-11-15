@@ -1,0 +1,20 @@
+<!-- icn MENU low-color Created with Inkscape (http://www.inkscape.org/) -->
+<svg class="svg_icn" id="icn-menu" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="42" width="42" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 11.1125 11.1125">
+ <title>icn-menu</title>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>icn-menu<dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0 -285.89)">
+  <g class="svg_dark">
+   <rect ry=".85151" height="2.0815" width="9.7535" y="286.78" x=".70528"/>
+   <rect ry=".85151" height="2.0815" width="9.7535" y="290.5" x=".70528"/>
+   <rect ry=".85151" height="2.0815" width="9.7535" y="294.21" x=".70528"/>
+  </g>
+ </g>
+</svg>

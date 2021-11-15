@@ -1,0 +1,49 @@
+
+/**
+    pro micro usb keyboard:
+        remote keyboard to enter commands?
+        enter password on btn?
+        xtea crypting, decrypt passw from tty
+
+        dip-switch key encryption ?
+            key number_of_iteration shift left, 
+            keygen dip: positive << negative, reverse, invert, 
+            encode: xor key, xor prev from 2 every 3th.
+
+        *dip-switch mode/menu select ?
+            Pii passwds login/kopdat, DELL, gpupdate, F12, mehadmws, home wifi
+            BM Rendszergazda, BM adm
+
+        rotary encoder: "safe like pin - 4 left, 2 right, etc..." to open functions
+            led response: red: closed; green: open;
+                click: begin code-read; 
+                direction change: store number to string
+                click: end
+
+            string uses:
+                encrypt the encrypted strings; SALT
+
+            *mode select ?: Pii, BM, encryption
+                led response? led1, led2, led3 ???
+
+        buttons/keypad:
+            select function / code
+            PIN code == num_rounds ?
+
+
+        encrypter function for serial monitor -> paste in cod
+
+        actions:
+            print options (Notepad)
+            DELL bios lockdown
+            ADM passw
+            kopdat passw
+            meha passw
+            gpupdate
+            ctrl-alt-DEL
+            F12 repeat
+            startmenu: xcopy "C:\ProgramData\Microsoft\Windows\Start Menu" "%APPDATA%\Microsoft\Windows\Start Menu" /Y /S /E
+
+
+*/
+      

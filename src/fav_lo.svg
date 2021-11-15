@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg4598"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="fav_lo.svg">
+  <title
+     id="title5143">favorites</title>
+  <defs
+     id="defs4592" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="13.458333"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4595">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>favorites</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nais314</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.3)">
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.28446472"
+       id="path5147"
+       sodipodi:sides="5"
+       sodipodi:cx="6.3499999"
+       sodipodi:cy="291.28546"
+       sodipodi:r1="6.6547046"
+       sodipodi:r2="2.9501655"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.94247777"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 6.3500001,284.63076 1.7340636,4.26797 4.5949363,0.33031 -3.523226,2.96807 1.105763,4.47212 -3.9115372,-2.4336 -3.9115372,2.4336 1.1057631,-4.47212 -3.52322589,-2.96807 4.59493639,-0.33031 z"
+       inkscape:transform-center-y="-0.63545053"
+       class="svg_dark" />
+    <path
+       inkscape:transform-center-y="-0.63545053"
+       d="m 6.3616728,287.57937 1.1375631,2.13474 2.3790757,0.43721 -1.6787299,1.74155 0.3193619,2.39775 -2.1750753,-1.0584 -2.1816992,1.04467 0.3344595,-2.39568 -1.6677262,-1.7521 2.3817826,-0.42221 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="-0.93932817"
+       sodipodi:arg1="-1.5676467"
+       sodipodi:r2="1.9467673"
+       sodipodi:r1="3.7061121"
+       sodipodi:cy="291.28546"
+       sodipodi:cx="6.3499999"
+       sodipodi:sides="5"
+       id="path5151"
+       style="fill:#ffffff;fill-rule:nonzero;stroke:none;stroke-width:0.28446472"
+       sodipodi:type="star"
+       class="svg_light" />
+  </g>
+</svg>
