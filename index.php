@@ -19,7 +19,7 @@ $route = '';
 if (! isset($_REQUEST['r']) or ! $_REQUEST['r'] ) {
   # get division default_action for loggedin users
 
-  \app::$logger->log(Psr\Log\LogLevel::DEBUG,"no r route");
+  if(DEBUGLEVEL > 0) \app::$logger->log(Psr\Log\LogLevel::DEBUG,"no r route");
 
   if(isset($_SESSION['loggedIn']) and $_SESSION['loggedIn'] === true){
     if(!empty($_SESSION['division']['default_action'])){
@@ -30,8 +30,9 @@ if (! isset($_REQUEST['r']) or ! $_REQUEST['r'] ) {
     }
   }else{
     # redirect to frontpage
-    \app::$logger->debug(' redirect to frontpage');
+    if(DEBUGLEVEL > 0) \app::$logger->debug(' redirect to frontpage');
     if(!empty($_SESSION['division']['folder'])){
+      if(DEBUGLEVEL > 0) \app::$logger->debug('folders/'.$_SESSION['division']['folder'].'/pub/');
       \app::redirect('folders/'.$_SESSION['division']['folder'].'/pub/');
     }else{
       header("HTTP/1.0 404 Not Found");
@@ -42,7 +43,7 @@ if (! isset($_REQUEST['r']) or ! $_REQUEST['r'] ) {
 }else{
   $route = $_REQUEST['r'];
 }
-//\app::$logger->debug($route);
+if(DEBUGLEVEL >= 3) \app::$logger->debug($route);
 
 /**
  set up "global" variables
@@ -77,7 +78,7 @@ if(is_callable($action)) {
   if(is_callable(\app::$controllerClass.'::'.'beforeAction')){ 
     call_user_func(\app::$controllerClass.'::'.'beforeAction');
   }else {
-    \app::$logger->log('possible error: ',$action.' maybe not secure!');
+    if(DEBUGLEVEL >= 0) \app::$logger->log('possible error: ',$action.' maybe not secure!');
   }
   # call user action :)
   $action();

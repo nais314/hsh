@@ -7,7 +7,7 @@ header("Pragma: private"); */
 
 define('DS', DIRECTORY_SEPARATOR);
 
-
+define('DEBUGLEVEL', 0);
 
 
 /**
@@ -348,7 +348,9 @@ app::$logger = new \Psr\Log\Logger(); //TODO add filename
 
 
 
-
+if(DEBUGLEVEL >= 5){
+	\app::$logger->debug(var_export($_SERVER, true));
+}
 
 
 
@@ -435,7 +437,7 @@ if(!isset($_SESSION['division']))
 	}else{
 		die("no division data error");
 	}
-	\app::$logger->debug('DEBUG' . var_export($_SESSION['division'],true));
+	if(DEBUGLEVEL >= 2) \app::$logger->debug('DEBUG' . var_export($_SESSION['division'],true));
 
 	# load $pagemenu // $_SESSION['division']['menu']
 	# and other customisations
@@ -451,7 +453,7 @@ if(!isset($_SESSION['division']))
 @NEW to implement:
 constant for SQL querys to stick to this ROOT-DIVISION */
 define("WHERE_ROOTDIV",(" AND rootdiv = ".$_SESSION['division']['rootdiv']));
-\app::$logger->debug("WHERE_ROOTDIV ".WHERE_ROOTDIV);
+if(DEBUGLEVEL >= 2) \app::$logger->debug("WHERE_ROOTDIV ".WHERE_ROOTDIV);
 
 
 /**
